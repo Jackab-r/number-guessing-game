@@ -45,7 +45,6 @@ int main()
     printf("Enter 1 for yes, 0 for No\n");
     if(scanf("%d", &play_again) != 1){
         printf("Invalid input!!Please choose between 1 and 0\n");
-
         return 1;
     }
 

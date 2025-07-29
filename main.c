@@ -43,7 +43,10 @@ int main()
 
     printf("Do you want to play again?\n");
     printf("Enter 1 for yes, 0 for No\n");
-    scanf("%d", &play_again);
+    if(scanf("%d", &play_again) != 1){
+        printf("Invalid input!! Exiting the program!\n");
+        return 1;
+    }
 
    }
 
